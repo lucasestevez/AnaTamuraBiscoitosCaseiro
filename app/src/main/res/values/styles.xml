@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="container_components_login">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">280dp</item>
+        <item name="android:background">@drawable/container_components</item>
+        <item name="android:layout_margin">20dp</item>
+    </style>
+
+    <style name="container_components_register">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">500dp</item>
+        <item name="android:background">@drawable/container_components</item>
+        <item name="android:layout_margin">20dp</item>
+    </style>
+
+    <style name="container_components_contact">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:background">@drawable/container_components</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginTop">70dp</item>
+    </style>
+
+
+    <style name="edit_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/edit_text</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:maxLength">25</item>
+        <item name="android:layout_marginLeft">40dp</item>
+        <item name="android:layout_marginRight">40dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+
+    <style name="button">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="button_google">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">40dp</item>
+        <item name="android:layout_marginRight">40dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:padding">20dp</item>
+    </style>
+
+    <style name="text_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">30dp</item>
+    </style>
+
+    <style name="text_contact">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:layout_marginLeft">40dp</item>
+        <item name="android:layout_marginRight">40dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+
+    <style name="button_increaseDecrease">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="backgroundTint">@color/grey_light</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+</resources>
